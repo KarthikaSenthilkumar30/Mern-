@@ -1,0 +1,33 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "📦 1. Install All Dependencies",
+      "type": "shell",
+      "command": "npm --prefix backend install && npm --prefix frontend install",
+      "problemMatcher": [],
+      "group": "build"
+    },
+    {
+      "label": "🚀 2. Start Backend Server (Port 5000)",
+      "type": "shell",
+      "command": "npm --prefix backend run dev",
+      "problemMatcher": [],
+      "isBackground": true
+    },
+    {
+      "label": "💻 3. Start Frontend Client (Port 5173)",
+      "type": "shell",
+      "command": "npm --prefix frontend run dev",
+      "problemMatcher": [],
+      "isBackground": true
+    },
+    {
+      "label": "🧪 4. Run Automated Jest Tests",
+      "type": "shell",
+      "command": "npm --prefix backend test",
+      "problemMatcher": [],
+      "group": "test"
+    }
+  ]
+}

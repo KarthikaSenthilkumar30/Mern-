@@ -1,0 +1,31 @@
+{
+  "company": "ACME Global Corp",
+  "fiscalYear": 2026,
+  "healthAndWellness": {
+    "medicalPlan": "Comprehensive PPO / HDHP with $0 preventive care copay",
+    "dentalAndVision": "100% employer-sponsored coverage for employees and 80% for dependents",
+    "gymAndFitnessStipend": "$50 per month wellness reimbursement for gym memberships or fitness classes",
+    "mentalHealthSupport": "12 free counseling sessions annually via Modern Health EAP"
+  },
+  "financialBenefits": {
+    "retirement401k": {
+      "employerMatchPercentage": 100,
+      "maxMatchContributionSalaryPercent": 5,
+      "vestingSchedule": "Immediate 100% vesting upon first contribution"
+    },
+    "equityStockOptions": {
+      "planType": "Incentive Stock Options (ISO)",
+      "vestingPeriod": "4-year vesting with a 1-year cliff"
+    },
+    "lifeInsurance": "2x annual base salary covered by the company"
+  },
+  "learningAndGrowth": {
+    "annualEducationStipendUSD": 1500,
+    "eligibleExpenses": [
+      "Technical certifications (AWS, GCP, CKA)",
+      "Coding bootcamps and university extension courses",
+      "Books, industry conferences, and online subscriptions (Coursera, Udemy)"
+    ],
+    "hackathons": "Quarterly paid hackathons with company-wide innovation awards"
+  }
+}
