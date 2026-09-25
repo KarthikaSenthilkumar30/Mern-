@@ -1,0 +1,25 @@
+{
+  "name": "documanage-ai-root",
+  "version": "1.0.0",
+  "description": "Full-Stack Document Management & AI Assistant for Placement Drive",
+  "private": true,
+  "scripts": {
+    "install:all": "npm --prefix backend install && npm --prefix frontend install",
+    "backend": "npm --prefix backend run dev",
+    "frontend": "npm --prefix frontend run dev",
+    "test": "npm --prefix backend test",
+    "build:frontend": "npm --prefix frontend run build",
+    "start": "npm --prefix backend start"
+  },
+  "keywords": [
+    "document-management",
+    "rag",
+    "ai-assistant",
+    "full-stack",
+    "express",
+    "react",
+    "openapi"
+  ],
+  "author": "Placement Candidate",
+  "license": "ISC"
+}
